@@ -1,0 +1,22 @@
+#Numbers
+print("You can do equations in Python, using () allows you to do an action first")
+print(5 * 6.5 + 5)
+print(5 *(6.5 + 5))
+
+print("Mod ** Need to do some more on this")
+print (10 % 3,"\n")
+
+my_num = 5
+print(str(my_num)+ " is my number, You can use variables ")
+
+
+my_num = -5
+print("Absolute value removes negatives")
+print(abs(my_num))
+
+print("max and Min can be used to find the smaller of two numbers")
+print(min(5,9))
+print(max(5,9))
+
+print("You can also round numbers with")
+print(round(1.2345))
