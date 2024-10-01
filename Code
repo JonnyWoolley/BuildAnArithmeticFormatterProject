@@ -25,6 +25,15 @@ print(text)
 # 'Error: Numbers must only contain digits.'
 # 'Error: Numbers cannot be more than four digits.'
 
-
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "*":
+    print(num1 * num2)
+elif op == "/":
+    print(num1 / num2)
+else:
+    print("Invalid operator")
 
 #print(f'{'Right Aligned Text' : <20}\n{arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])}')
